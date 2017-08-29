@@ -14,7 +14,7 @@ public class DataThread extends Thread {
             Robot robot = new Robot();
             Rectangle rectangle = new Rectangle(Toolkit.getDefaultToolkit().getScreenSize());
             SocketByHsl.setSocketNull();
-            SocketByHsl.setSocket("127.0.0.1", 5417);
+            SocketByHsl.setSocket("183.175.11.210", 5417);
             while (true) {
 
                 BufferedImage bufferDesktop = robot.createScreenCapture(rectangle);
